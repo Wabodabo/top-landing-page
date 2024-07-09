@@ -33,6 +33,38 @@ ul{
     align-items: center;
 }
 
+.aHook{
+    flex: 0 0 400px;
+}
+
+.hook{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hook-sub, a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hook-sub{
+    margin-bottom: 16px;
+}
+
+button{
+    background-color: #3882F6;
+    padding:12px 24px;
+    border: 0;
+    border-radius: 8px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
 .content2{
     display: flex;
     flex-direction: column;
@@ -75,6 +107,7 @@ ul{
 
 .quote-container{
     width:800px;
+    flex: 0 0 auto;
 }
 
 .quote{
@@ -82,6 +115,7 @@ ul{
     color:#1f29379d;
     font-weight: 50;
     font-style: italic;
+    margin-bottom: 16px;
 }
 
 .quotee{
@@ -93,7 +127,37 @@ ul{
 }
 
 .content4{
-    padding:32px;
+    display:flex;
+    padding:128px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:925px;
+    padding:48px;
+    background-color: #3882F6;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    gap:48px;
+}
+
+.CTA{
+    color:#F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cta-text{
+    color: #F9FAF8;
+    font-size: 12px;
+}
+
+.newsletter-button{
+    border: 1px solid #F9FAF8;
 }
 
 .footer{
